@@ -1,0 +1,37 @@
+* {margin: 0px; box-sizing: border-box;}
+
+body {font-family: "Poiret One", cursive;}
+tr.diff-font {font-size: 15pt;}
+
+article, section > h2 {padding-left: 1em;}
+section > h2 {font-variant: bold;}
+
+ul {font-size: 14pt;}
+li.indent {text-indent: 3em; font-style: italics; color: black;}
+li.indent:hover {color: rgb(70, 116, 116)}
+
+table.fold {width: 100%; border: none; padding: 0; background: rgb(39, 42, 47); overflow: hidden; border-collapse: collapse;}
+td a {display: inline-block; text-align: center; text-decoration: none; color: white;}
+td a.current {background: rgb(51, 57, 57);}
+td a:hover {text-decoration: underline;}
+table.one {width:100%; padding: 0 75px 0 200px;}
+table.two {width: 100%; padding: 0 50px 0 50px;}
+table.three {width: 100%; padding: 0 75px 0 300px;}
+
+#homebutton {height: 75px; padding: 1em 3.5em 1em 3.5em;}
+#commonbutton {padding: 1em 0.75em 1em 0.75em;}
+#rarebutton {padding: 1em 3em 1em 3em;}
+#bestbutton {padding: 1em 2em 1em 2em;}
+#helpbutton {padding: 1em 1em 1em 1em; }
+#gallerybutton {padding: 1em 2em 1em 2em;}
+
+#centralimage {width: 100%}
+
+
+#heading {font:8vw; padding-top: 0.4em; text-align: center;}
+#next {color:white; float: right; padding: 3em 5em;}
+#previous {color:white; float: left; padding: 3em 5em;}
+
+div {padding: 5px;}
+div.main {width: 100%; height: 300px;}
+div.footer {clear: both;}
